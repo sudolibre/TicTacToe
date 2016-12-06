@@ -10,6 +10,13 @@
 		E8BBC1101DF61658009B15EB /* TicTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BBC1061DF61657009B15EB /* TicTacToe.framework */; };
 		E8BBC1151DF61658009B15EB /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBC1141DF61658009B15EB /* TicTacToeTests.swift */; };
 		E8BBC1171DF61658009B15EB /* TicTacToe.h in Headers */ = {isa = PBXBuildFile; fileRef = E8BBC1091DF61657009B15EB /* TicTacToe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8BBC1211DF61677009B15EB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBC1201DF61677009B15EB /* main.swift */; };
+		E8BBC1231DF6167F009B15EB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBC1221DF6167F009B15EB /* Player.swift */; };
+		E8BBC1251DF61687009B15EB /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBC1241DF61687009B15EB /* Row.swift */; };
+		E8BBC1271DF6168C009B15EB /* Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBC1261DF6168C009B15EB /* Column.swift */; };
+		E8BBC1291DF61691009B15EB /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBC1281DF61691009B15EB /* Place.swift */; };
+		E8BBC12B1DF625C5009B15EB /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBC12A1DF625C5009B15EB /* Board.swift */; };
+		E8BBC12D1DF626D1009B15EB /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BBC12C1DF626D1009B15EB /* Marker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		E8BBC10F1DF61658009B15EB /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BBC1141DF61658009B15EB /* TicTacToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeTests.swift; sourceTree = "<group>"; };
 		E8BBC1161DF61658009B15EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8BBC1201DF61677009B15EB /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E8BBC1221DF6167F009B15EB /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E8BBC1241DF61687009B15EB /* Row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		E8BBC1261DF6168C009B15EB /* Column.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Column.swift; sourceTree = "<group>"; };
+		E8BBC1281DF61691009B15EB /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		E8BBC12A1DF625C5009B15EB /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		E8BBC12C1DF626D1009B15EB /* Marker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,13 @@
 			children = (
 				E8BBC1091DF61657009B15EB /* TicTacToe.h */,
 				E8BBC10A1DF61657009B15EB /* Info.plist */,
+				E8BBC1201DF61677009B15EB /* main.swift */,
+				E8BBC1221DF6167F009B15EB /* Player.swift */,
+				E8BBC12C1DF626D1009B15EB /* Marker.swift */,
+				E8BBC12A1DF625C5009B15EB /* Board.swift */,
+				E8BBC1241DF61687009B15EB /* Row.swift */,
+				E8BBC1261DF6168C009B15EB /* Column.swift */,
+				E8BBC1281DF61691009B15EB /* Place.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -148,6 +169,7 @@
 				TargetAttributes = {
 					E8BBC1051DF61657009B15EB = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					E8BBC10E1DF61658009B15EB = {
@@ -196,6 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BBC1231DF6167F009B15EB /* Player.swift in Sources */,
+				E8BBC1271DF6168C009B15EB /* Column.swift in Sources */,
+				E8BBC12B1DF625C5009B15EB /* Board.swift in Sources */,
+				E8BBC1251DF61687009B15EB /* Row.swift in Sources */,
+				E8BBC1211DF61677009B15EB /* main.swift in Sources */,
+				E8BBC1291DF61691009B15EB /* Place.swift in Sources */,
+				E8BBC12D1DF626D1009B15EB /* Marker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +349,7 @@
 		E8BBC11B1DF61658009B15EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dayj.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,6 +369,7 @@
 		E8BBC11C1DF61658009B15EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +388,7 @@
 		E8BBC11E1DF61658009B15EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TicTacToeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dayj.TicTacToeTests;
@@ -367,6 +400,7 @@
 		E8BBC11F1DF61658009B15EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TicTacToeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dayj.TicTacToeTests;
